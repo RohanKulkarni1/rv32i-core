@@ -1,0 +1,22 @@
+# Simulation build output
+obj_dir/
+sim_build/
+*.vcd
+*.fst
+*.o
+*.a
+*.out
+
+# cocotb / pytest
+__pycache__/
+*.pyc
+results.xml
+.pytest_cache/
+
+# Gowin EDA
+impl/
+*.fs
+*.rpt.html
+
+# macOS
+.DS_Store
